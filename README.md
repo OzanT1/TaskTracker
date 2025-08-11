@@ -4,7 +4,7 @@ A simple full-stack task management application built with **React** (frontend) 
 
 ---
 <img width="2558" height="1357" alt="image" src="https://github.com/user-attachments/assets/51a0b520-7f12-4f98-8f6e-3e9e122f2c33" />
----
+
 
 ## Features
 
