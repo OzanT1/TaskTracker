@@ -17,8 +17,8 @@ A simple full-stack task management application built with **React** (frontend) 
 
 ## Tech Stack
 
-Frontend: React + Vite, JavaScript/JSX, CSS (vanilla)
-Backend: ASP.NET Core, C#, Entity Framework Core, PostgreSQL
+- **Frontend**: React + Vite, JavaScript/JSX, CSS (vanilla)
+- **Backend**: ASP.NET Core, C#, Entity Framework Core, PostgreSQL
 
 ---
 
@@ -44,7 +44,7 @@ Backend: ASP.NET Core, C#, Entity Framework Core, PostgreSQL
 
     ```json
     "ConnectionStrings": {
-      "DefaultConnection": "Host=localhost;Database=tasktrackerdb;Username=yourusername;Password=yourpassword"
+      "DefaultConnection": "Host=localhost;Database=tasktrackerdb;Username=YOUR_USERNAME;Password=YOUR_PASSWORD"
     }
     ```
 
@@ -101,8 +101,3 @@ The React app will be served at `http://localhost:5173` by default.
 
 - CORS policy is configured in the backend to allow requests from the React app during development.
 - For production, consider serving the React build files from the backend.
-
----
-
-## Folder Structure
-
