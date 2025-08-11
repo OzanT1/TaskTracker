@@ -1,0 +1,119 @@
+#root {
+  /* Remove max-width and padding to allow full width/height */
+  width: 100%;
+  min-height: 100vh;
+  margin: 0;
+  text-align: initial;
+}
+
+.app-bg {
+  min-height: 100vh;
+  width: 100vw;
+  
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.header {
+  text-align: center;
+  margin: 30px 0 40px 0;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: #213547;
+}
+
+.main-content {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 40px;
+  width: 100%;
+  min-height: calc(100vh - 120px); /* adjust for header height */
+  box-sizing: border-box;
+  padding-bottom: 40px;
+}
+
+.add-task-panel {
+  background: #fff;
+  padding: 24px;
+  border-radius: 12px;
+  box-shadow: 0 2px 12px #0001;
+  min-width: 280px;
+  color: #213547;
+  text-align: left;
+}
+
+.add-task-panel input,
+.add-task-panel textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 1em;
+  color: #213547;
+  background: #fafbfc;
+}
+
+.add-task-panel textarea {
+  resize: vertical;
+}
+
+.add-task-panel button {
+  width: 100%;
+  padding: 10px;
+  background: #1976d2;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+  font-size: 1em;
+}
+
+.task-list-panel {
+  flex: 1;
+  background: #fff;
+  padding: 24px;
+  border-radius: 12px;
+  box-shadow: 0 2px 12px #0001;
+  min-width: 400px;
+  color: #213547;
+  text-align: left;
+}
+
+.task-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #fff;
+  color: #213547;
+}
+
+.task-table th,
+.task-table td {
+  padding: 8px;
+  border-bottom: 1px solid #f3f3f3;
+  max-width: 180px;           /* Limit cell width */
+  word-break: break-word;     /* Allow breaking long words */
+  overflow: auto;             /* Show scroll if content is too tall */
+  vertical-align: top;
+  max-height: 80px;
+}
+
+.task-table td {
+  
+}
+
+.task-table th {
+  background: #f0f4fa;
+  border-bottom: 1px solid #eee;
+}
+
+.status-completed {
+  color: #388e3c;
+  font-weight: 600;
+}
+
+.status-pending {
+  color: #d32f2f;
+  font-weight: 600;
+}
